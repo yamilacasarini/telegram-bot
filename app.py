@@ -144,7 +144,7 @@ def chicas1(bot,update):
 
 def hotel1(bot,update):
     chat_id = update.message.chat.id
-    bot.send_message(chat_id=update.message.chat.id, ptext="TRIVAGO")
+    bot.send_message(chat_id=update.message.chat.id, text="TRIVAGO")
 
 def tom1(bot,update):
     chat_id = update.message.chat.id
