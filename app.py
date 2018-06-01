@@ -55,6 +55,7 @@ comer = Comer()
 fact = Facturas()
 bajar = Bajar()
 chicas = Chicas()
+hotel = Hotel()
 
 def main():
 
