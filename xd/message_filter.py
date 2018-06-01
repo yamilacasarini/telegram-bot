@@ -49,7 +49,7 @@ class Tom(BaseFilter):
 
 class Mate(BaseFilter):
     def filter(self, message):
-        return "mate " in message.text.lower() or " mate" in message.text.lower()
+        return "mate" in message.text.lower() or "mate" in message.text.lower()
         
 class Despegar(BaseFilter):
     def filter(self, message):
