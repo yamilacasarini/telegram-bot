@@ -13,7 +13,7 @@ class Chicas(BaseFilter):
 			
 class Facturas(BaseFilter):
 	def filter(self,message):
-		return "rompi" in message.text.lower() or "cague" in message.text.lower() or "cagué" in message.text.lower() or "rompí" in message.text.lower() or "flashe" in message.text.lower() or "jira" in message.text.lower()
+		return "rompi" in message.text.lower() or "cague" in message.text.lower() or "cagué" in message.text.lower() or "rompí" in message.text.lower() or "flashe" in message.text.lower() or "jira" in message.text.lower() or "lucio" in message.text.lower()
 
 class Programar(BaseFilter):
 	def filter(self, message):
