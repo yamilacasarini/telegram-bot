@@ -143,7 +143,7 @@ def chicas1(bot,update):
 
 def tom1(bot,update):
     chat_id = update.message.chat.id
-    bot.sendPhoto(chat_id=update.message.chat.id, photo="estaba en la floreria")
+    bot.sendPhoto(chat_id=update.message.chat.id, photo="https://k61.kn3.net/0AE2053F9.jpg")
   
 def comer1(bot,update):
     chat_id = update.message.chat.id

@@ -7,14 +7,9 @@ mensajes = [
 "esto con cristina no pasaba",
 "al toke roque",
 "al pike enrike",
- "por?",
- "es al pedo empujar cuando la pija es muy corta",
- "Algo de eso hay",
  "Y es todo un tema",
- "STAY WERE YOU ARE",
- "TAG YOUR LOCAL DRUG DEALER",
- "¿Cuando sale un asadito?",
- "diculpame flacx podes hablar en un lenguajx mas inclusivx"
+ "mira las boludeces que escriben",
+ "HOY SE COBRA"
 ]
 
 class MensajeRandom(object):
