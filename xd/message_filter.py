@@ -172,7 +172,12 @@ class Comoteven(BaseFilter):
 class Relativo(BaseFilter):
 	def filter(self,message):
 		return "relativo" in message.text.lower() or "einstein" in message.text.lower() or "fisica " in message.text.lower()
-   
+
+class Hotel(BaseFilter):
+	def filter(self, message):
+		return "hotel" in message.text.lower()
+
 class TodoFilter(BaseFilter):
     def filter(self, message):
         return message.text != ""
+

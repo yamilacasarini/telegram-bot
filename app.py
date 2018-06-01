@@ -107,6 +107,7 @@ def main():
     dp.add_handler(MessageHandler(bajar,bajar1))
     dp.add_handler(MessageHandler(fact,fact1))
     dp.add_handler(MessageHandler(chicas,chicas1))
+    dp.add_handler(MessageHandler(hotel,hotel1))
  
     """Este filter siempre tiene que estar ultimo"""
     dp.add_handler(MessageHandler(todo_filter, random))
@@ -140,6 +141,9 @@ def chicas1(bot,update):
     chat_id = update.message.chat.id
     bot.sendPhoto(chat_id=update.message.chat.id, photo="https://images.larepublica.co/s3/280/cms/2017/02/06192652/Damian_scokin.jpg")
 
+def hotel1(bot,update):
+    chat_id = update.message.chat.id
+    bot.send_message(chat_id=update.message.chat.id, ptext="TRIVAGO")
 
 def tom1(bot,update):
     chat_id = update.message.chat.id
